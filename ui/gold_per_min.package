@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>	
+	<template name="biogpm" >
+		<panel
+			name="biogpm"
+			noclick="true"
+			height="0%"
+			width="0%"
+			x="30"
+			y="30"
+		>
+		
+		<frame texture="/ui/frames/roundframe.tga" noclick="true" bordercolor="1 1 1 .75" borderthickness="0.8h" watch="gpm_frametrigger" onload="If(_gpm_option_frame and !_gpm_option_frame_notrounded,SetVisible(true),SetVisible(false));" ontrigger="If(_gpm_option_frame and !_gpm_option_frame_notrounded,SetVisible(true),SetVisible(false));" />
+		<frame noclick="true" bordercolor="0" color="0 0 0 0" borderthickness="0" watch="gpm_frametrigger" onload="If(_gpm_option_frame_notrounded and !_gpm_option_frame,SetVisible(true),SetVisible(false));" ontrigger="If(_gpm_option_frame_notrounded and !_gpm_option_frame,SetVisible(true),SetVisible(false));" />
+		<panel onload="SetVAlign('center'); SetHAlign('center');" >
+		<instance 
+			name="movf_label" 
+			id="biogpm"
+			color="white" 
+			shadow="0" 
+			width="0%" 
+			height="0%"
+			watch0="GoldReport"
+			ontrigger0="SetText( _gpm_option_prefix # param7 );"
+			/>
+		</panel>
+		</panel>
+	</template>
+
+	<instance name="biogpm" />
+
+	<instance
+		name="movf_frame"
+		id="biogpm"
+		textid="Gold per Minute"
+		noclick="true"
+		visible="true"
+		resizable="true"
+		snap="true"
+		snapto="false"
+		height="3h"
+		width="12h"
+		align="center"
+		valign="center"
+		maintainratio="true"
+		overridepos="true"
+	/>
+	
+	
+</package>

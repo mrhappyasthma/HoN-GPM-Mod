@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+    <template name="biogpm_options">
+        <instance mod_id="{name}" name="mod_options" mod_name="Gold/Min" />
+        <instance mod_id="{name}" name="mod_checkbox" label="Frame: Rounded corners" cvar="_gpm_option_frame" default="true" trigger="gpm_frametrigger" onchange="If(_gpm_option_frame_notrounded,Split(Set(\\\'_gpm_option_frame_notrounded\\\', false),Trigger(\\\'gpm_frametrigger\\\')))" />
+	<instance mod_id="{name}" name="mod_checkbox" label="Frame: Non rounded corners" cvar="_gpm_option_frame_notrounded" default="false" trigger="gpm_frametrigger" onchange="If(_gpm_option_frame,Split(Set(\\\'_gpm_option_frame\\\', false),Trigger(\\\'gpm_frametrigger\\\')))" />
+	<instance mod_id="{name}" name="mod_textbox" label="GPM Prefix" cvar="_gpm_option_prefix" default="GPM: " trigger="gpm_displayupdate" />
+	</template>
+</package>
+
