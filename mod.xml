@@ -8,7 +8,7 @@
 	date="19.02.2011 - updated 02.01.2017"
 	description="Shows Gold/Minute statistics in a movable frame."
 	author="biomass - Fix by q8bohmed - Updated by MrHappyAsthma"
-	weblink="http://forums.heroesofnewerth.com/showthread.php?t=79795"
+	weblink="https://github.com/mrhappyasthma/HoN-GPM-Mod"
   updatecheckurl="http://raw.githubusercontent.com/mrhappyasthma/HoN-GPM-Mod/master/version.txt"
   updatedownloadurl="http://github.com/mrhappyasthma/HoN-GPM-Mod/releases/download/Latest/gpm.honmod"
 	>
