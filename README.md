@@ -43,6 +43,6 @@ The in-game overlay is considered a movable frame, and is configured through the
 3. Go to the HoN `options` menu (the gear icon). Then go to the `Mods` tab. At the top of this tab, click the `Configure` button under `Movable Frames`: <br/><br/>
 ![Click on the HoN 'Options' button (the gear icon). Then got to the 'Mods' section. At the top of these options, click the 'Configure' button under 'Movable Frames'.](http://i.imgur.com/2ksL7WC.jpg)
 
-4. This will allow you to configure the movable frames however you want (including the `Buy Back Gold` overlay). You can simply click and drag the frame around to the position you like on screen. <br/><br/>
+4. This will allow you to configure the movable frames however you want (including the `Gold per Minute` overlay). You can simply click and drag the frame around to the position you like on screen. <br/><br/>
 *Note: You can also turn it off through here (although, it is worth removing it from the `HoN Mod Manager` completely, if you wish to never use it again).* <br/><br/>
 ![Example of what the movable frames 'Configuration' mode looks like.](https://i.imgur.com/oIP35LC.jpg)
