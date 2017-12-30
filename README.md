@@ -2,13 +2,13 @@
 
 ![Example of the GPM mod overlay](https://i.imgur.com/l9qjtoV.jpg)
 
-##About
+## About
 This is a mod for the [Heroes of Newerth](http://www.heroesofnewerth.com/) (HoN) video game to show an on-screen overlay displaying your GPM stat on the overlay.
 
 This mod was originally written by biomass. All credits go to him/her. Check out the original thread [here](http://forums.heroesofnewerth.com/showthread.php?79795-Gold-per-Minute-%28movable-frame%29-1-2-%2819-Feb-2011%29&p=15664502&viewfull=1#post15664502).
 
-##Installing
-0. You will need the [HoN Mod Manager](http://forums.heroesofnewerth.com/showthread.php?25883-HoN-Modification-Manager-1-3-6) to use this mod. So first, install that.
+## Installing
+0. You will need the [HoN Mod Manager](https://forums.heroesofnewerth.com/showthread.php?596451-HoN-Modification-Manager-1-4-0&p=16563263&viewfull=1#post16563263) to use this mod. So first, install that.
 
 1. Once that is installed, you can download the latest release of the GPM mod from [here](https://github.com/mrhappyasthma/HoN-GPM-Mod/releases/download/Latest/gpm.honmod).
 
@@ -22,17 +22,17 @@ This mod was originally written by biomass. All credits go to him/her. Check out
 *Note: You will need to re-apply mods every time HoN is updated.* <br/><br/>
 *This is done manually by opening HoN Mod Manager. It will detect the version change and give you a pop-up asking if you'd like to re-apply. Click yes, and you're good to go! If not, you're client WILL be very buggy.*
 
-##Updating
+## Updating
 Updating is also done through the HoN Mod Manager. Simply click on `File -> Download Mod Updates`: <br/><br/>
 ![Click the 'File' tab and click on the 'Download Mod Updates' option.](https://camo.githubusercontent.com/7bed1c0b728ecc34d093de1197aab7950472fa7d/687474703a2f2f692e696d6775722e636f6d2f726264515a7a752e706e67)
 
-##Configuring the Overlay
-###Default Options
+## Configuring the Overlay
+### Default Options
 You can change some default options by going the HoN `options` menu (the gear icon). Then go to the `Mods` tab. Scroll down to the `Gold/Min` mod settings, and configure them how you please: <br/><br/>
 ![Click on the HoN 'Options' button (the gear icon). Then got to the 'Mods' section. Scroll down until the 'Gold/Min' options at the bottom of that scrollbar. Then click the 'Apply' button after any changes.](https://i.imgur.com/Ie6tNwc.png) <br/><br/>
 *Note: You need to click `Apply` when you're done making changes!*
 
-###Configuring the Movable Frame
+### Configuring the Movable Frame
 The in-game overlay is considered a movable frame, and is configured through the HoN movable frames options.
 
 1. The first step here is to enter a practice game (through the `Hosted Games` button in HoN).
