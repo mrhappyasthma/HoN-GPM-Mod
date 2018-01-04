@@ -4,8 +4,8 @@
 	appversion="*"
 	mmversion="*"
 	name="Gold/Min"
-	version="1.4"
-	date="19.02.2011 - updated 01.02.2018"
+	version="1.5"
+	date="01.03.2018"
 	description="Shows Gold/Minute statistics in a movable frame."
 	author="biomass - Fix by q8bohmed - Updated by MrHappyAsthma"
 	weblink="https://github.com/mrhappyasthma/HoN-GPM-Mod"
@@ -38,6 +38,24 @@
 		<find><![CDATA[	<trigger name="ItemTooltip"/>]]></find>
 		<insert position="after"><![CDATA[
 	<include file="gold_per_min.package"/>]]></insert>
+	</editfile>
+
+   <!-- 8 bit UI -->
+	<editfile name="ui/game_retro.interface">
+		<find><![CDATA[<include file="game_gold_report.package"/>]]></find>
+		<insert position="after"><![CDATA[<include file="gold_per_min.package"/>]]></insert>
+	</editfile>
+
+   <!-- Enable Gold Report -->
+	<editfile name="ui/game_gold_report.package">
+		<find><![CDATA[		onhidelua="
+			if not GetWidget('shop_tooltip_gold_report', 'game'):IsVisible() then
+				Set('cg_enableGoldReport', false)
+			end
+		"]]></find>
+		<delete/>
+		<find><![CDATA[		onhidelua="if not GetWidget('buyback_indicator', 'game'):IsVisible() then Set('cg_enableGoldReport', false) end"]]></find>
+		<delete/>
 	</editfile>
 
 	<editfile name="ui/mod_options_templates.package" >
