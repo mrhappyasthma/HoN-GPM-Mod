@@ -8,7 +8,7 @@ This is a mod for the [Heroes of Newerth](http://www.heroesofnewerth.com/) (HoN)
 This mod was originally written by biomass. All credits go to him/her. Check out the original thread [here](http://forums.heroesofnewerth.com/showthread.php?79795-Gold-per-Minute-%28movable-frame%29-1-2-%2819-Feb-2011%29&p=15664502&viewfull=1#post15664502).
 
 ## Installing
-0. You will need the [HoN Mod Manager](https://forums.heroesofnewerth.com/showthread.php?596451-HoN-Modification-Manager-1-4-0&p=16563263&viewfull=1#post16563263) to use this mod. So first, install that.
+0. You will need the [HoN Mod Manager](https://forums.heroesofnewerth.com/index.php?/topic/112-hon-mod-manager-download/) to use this mod. So first, install that.
 
 1. Once that is installed, you can download the latest release of the GPM mod from [here](https://github.com/mrhappyasthma/HoN-GPM-Mod/releases/download/Latest/gpm.honmod).
 
